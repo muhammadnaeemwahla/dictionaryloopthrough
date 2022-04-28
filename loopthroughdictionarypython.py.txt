@@ -1,0 +1,14 @@
+dict_of_words = {
+    'hello': 'This is hello',
+    'world': 'This is world',
+    'python': 'This is python',
+    'is': 'This is is',
+    'awesome': 'This is awesome',
+    '!': 'This is !',
+    '!': 'This is !',
+}
+
+
+for i in dict_of_words:
+    #print all dict_of_words
+    print(f'{i}: {dict_of_words[i]}')
